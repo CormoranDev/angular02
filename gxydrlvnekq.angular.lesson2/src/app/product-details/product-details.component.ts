@@ -14,7 +14,7 @@ export class ProductDetailsComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private cardService: CartService
+    private cartService: CartService
   ) { }
 
   addToCart(product) {
